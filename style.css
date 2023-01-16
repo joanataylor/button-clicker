@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  height: 100px;
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navtitle {
+  margin-left: 20px;
+  padding-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 4em;
+}
+
+.documentbody {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+
+input {
+  height: 30px;
+  width: 300px;
+  margin: 30px;
+  margin-left: 150px;
+  border: 2px solid black;
+}
+
+.loginbtn {
+  padding: 10px;
+  height: 40px;
+  width: 100px;
+  border: 2px solid black;
+  color: white;
+  background-color: #2b78e4;
+  box-shadow: 5px 5px black;
+  margin: 30px;
+  margin-left: 150px;
+  margin-right: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: larger;
+}
+
+.maincontainer {
+  /* height: 535px; */
+  width: 700px;
+  margin-left: 50px;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ninjaboxone {
+  height: 235px;
+  width: 650px;
+  /* background-color: blueviolet; */
+  border: 4px solid black;
+}
+
+.ninjaboxtwo {
+  height: 235px;
+  width: 650px;
+  /* background-color: blueviolet; */
+  border: 4px solid black;
+  display: flex;
+}
+
+.sidebar {
+  height: 200px;
+  width: 400px;
+  margin-right: 20px;
+  margin-left: 20px;
+  /* background-color: blue; */
+  border: 4px solid black;
+}
+
+.ninjaONE {
+  display: flex;
+  /* padding: 10px; */
+  height: 300;
+  width: 600px;
+  text-align: center;
+
+
+}
+
+.ninjaHeader {
+  width: 180px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.ninjaTwo {
+  display: flex;
+  flex-direction: column;
+  /* padding: 10px; */
+  height: 100%;
+  width: 100%;
+}
+
+.likebtn {
+  padding: 10px;
+  height: 50px;
+  width: 100px;
+  border: 2px solid black;
+  color: black;
+  background-color: rgb(243, 206, 73);
+  box-shadow: 5px 5px black;
+  margin: 20px 25px;
+  /* margin-left: 150px; */
+  /* margin-right: 10px; */
+  font-family: 'Roboto', sans-serif;
+  font-size: larger;
+}
+
+.OneDiscription {
+  /* display: flex;
+  height: 300; */
+}
+
+.discriptionh2 {
+  width: 500px;
+  /* display: flex; */
+  margin-top: 100px;
+  height: 100px;
+}
+
+.sidebar > p{
+  font-size: 35px;
+}
+
+.ninjaNoun {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+p {
+  margin: 10px;
+}
+
+.Definebtn{
+  background-color: green;
+  border:  3px solid black;
+  box-shadow: 5px 5px black;
+  width: 200px;
+  height: 50px;
+  font-size: larger;
+  margin-left: 70px;
+  margin-top: 15px;
+}
